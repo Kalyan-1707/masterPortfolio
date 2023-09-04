@@ -37,6 +37,9 @@
   align-items: center;
   justify-content: center;
 }
+.contact-heading-img-div img {
+  border-radius: 50%;
+}
 
 .blog-heading-img-div {
   align-items: center;
@@ -53,6 +56,9 @@
 
 .address-heading-text-div {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-heading-img-div > * {
